@@ -1,7 +1,7 @@
 ---
 
-computername: Kerngehäuse
-hostname: kerngehaeuse
+computername: Gibran
+hostname: gibran
 
 finder_proxy_icon_hover_delay: 0
 
@@ -36,35 +36,22 @@ homebrew_taps:
 homebrew_apps:
   - 1password
   - alfred
-  - aws-vault
+  - asdf
   - bartender
   - brave-browser
-  - cardhop
   - cleanmymac
-  - dash
   - discord
   - docker
-  - fantastical
   - firefox
-  - fliqlo
   - font-fira-code
-  - gpg-suite
   - iterm2
-  - jetbrains-toolbox
-  - mailmate
   - multimc
   - paw
-  - sequel-pro
-  - sonos
-  - spillo
   - slack
-  - spotify
-  - sublime-merge
-  - sublime-text
-  - tableplus
   - telegram
   - transmit
   - twitch
+  - visual-studio-code
   - whatsapp
 
 homebrew_packages:
@@ -97,7 +84,45 @@ homebrew_packages:
 
 mas_apps:
   - { name: 1Blocker, id: 1107421413 }
-  - { name: Bear, id: 1091189122 }
+  - { name: CloudMounter, id: 1130254674 }
+  - { name: Endel, id: 1484348796 }
+  - { name: Evernote, id: 406056744 }
+  - { name: HazeOver, id: 430798174 }
+  - { name: LastPass, id: 926036361 }
+  - { name: Magnet, id: 441258766 }
   - { name: Pages, id: 409201541 }
   - { name: Patterns, id: 429449079 }
+  - { name: Scansnap, id: 1211119808 }
+  - { name: Soulver, id: 1508732804 }
   - { name: Tweetbot, id: 1384080005 }
+  - { name: Unclutter, id: 577085396 }
+  - { name: XCode, id: 497799835 }
+
+vscode_extensions:
+  - BriteSnow.vscode-toggle-quotes
+  - CraigMaslowski.erb
+  - Tyriar.sort-lines
+  - akamud.vscode-theme-onedark
+  - aki77.rails-db-schema
+  - aliariff.vscode-erb-beautify
+  - bibhasdn.unique-lines
+  - bradlc.vscode-tailwindcss
+  - castwide.solargraph
+  - hjleochen.rails-nav
+  - kaiwood.endwise
+  - misogi.ruby-rubocop
+  - ms-azuretools.vscode-docker
+  - ms-vscode-remote.remote-containers
+  - ms-vscode-remote.remote-ssh
+  - ms-vscode-remote.remote-ssh-edit
+  - ms-vscode-remote.remote-wsl
+  - ms-vscode-remote.vscode-remote-extensionpack
+  - ms-vsliveshare.vsliveshare
+  - rayhanw.erb-helpers
+  - rebornix.ruby
+  - ruiquelhas.vscode-lowercase
+  - shaharkazaz.git-merger
+  - sianglim.slim
+  - vincaslt.highlight-matching-tag
+  - vortizhe.simple-ruby-erb
+  - vscode-icons-team.vscode-icons

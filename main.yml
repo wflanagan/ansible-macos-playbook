@@ -1,7 +1,5 @@
 ---
-
 - hosts: localhost
-
   pre_tasks:
     - name: Include configuration
       include_vars: "{{ item }}"
@@ -11,7 +9,6 @@
             - default.config.yml
           skip: true
       tags: ['always']
-
   roles:
     - role: homebrew
       tags: [homebrew]
